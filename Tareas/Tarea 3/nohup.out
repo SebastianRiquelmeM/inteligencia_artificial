@@ -1,0 +1,20 @@
+[I 02:40:41.068 NotebookApp] Serving notebooks from local directory: /home/ubuntu/inteligencia_artificial/Tareas/Tarea 3
+[I 02:40:41.068 NotebookApp] Jupyter Notebook 6.5.1 is running at:
+[I 02:40:41.068 NotebookApp] https://pterodactyl-3:9999/
+[I 02:40:41.068 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 02:40:50.691 NotebookApp] SSL Error on 9 ('201.188.55.20', 42982): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:997)
+[W 02:40:50.695 NotebookApp] SSL Error on 10 ('201.188.55.20', 42970): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:997)
+[E 02:40:52.493 NotebookApp] Could not open static file ''
+[W 02:40:52.716 NotebookApp] 404 GET /static/components/jquery-ui/themes/smoothness/jquery-ui.min.css (201.188.55.20) 5.660000ms referer=https://144.22.55.154:9999/tree?
+[W 02:40:52.749 NotebookApp] SSL Error on 11 ('201.188.55.20', 43004): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:997)
+[W 02:40:52.749 NotebookApp] SSL Error on 12 ('201.188.55.20', 43016): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:997)
+[W 02:40:52.752 NotebookApp] SSL Error on 13 ('201.188.55.20', 43026): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:997)
+[W 02:40:52.764 NotebookApp] SSL Error on 14 ('201.188.55.20', 43030): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:997)
+[W 02:40:52.774 NotebookApp] SSL Error on 12 ('201.188.55.20', 43046): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:997)
+[W 02:40:52.779 NotebookApp] SSL Error on 13 ('201.188.55.20', 43056): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:997)
+[W 02:40:52.788 NotebookApp] SSL Error on 15 ('201.188.55.20', 43064): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:997)
+[W 02:40:52.794 NotebookApp] SSL Error on 11 ('201.188.55.20', 43066): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:997)
+[W 02:40:55.079 NotebookApp] 404 GET /static/components/jquery-ui/themes/smoothness/jquery-ui.min.css (201.188.55.20) 1.520000ms referer=https://144.22.55.154:9999/tree?
+[I 02:40:56.849 NotebookApp] Interrupted...
+[I 02:40:56.849 NotebookApp] Shutting down 0 kernels
+[I 02:40:56.850 NotebookApp] Shutting down 0 terminals
