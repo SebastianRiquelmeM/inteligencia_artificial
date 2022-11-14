@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/inteligencia_artificial/Tareas/Tarea3/vecino_optimo.py", line 86, in <module>
+    nuevo = entrenar(dataset, i+1)
+  File "/home/ubuntu/inteligencia_artificial/Tareas/Tarea3/vecino_optimo.py", line 75, in entrenar
+    resultado = knn.predict(x_validation[i].reshape(1,-1))[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/sklearn/neighbors/_classification.py", line 226, in predict
+    neigh_ind = self.kneighbors(X, return_distance=False)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/sklearn/neighbors/_base.py", line 814, in kneighbors
+    chunked_results = Parallel(n_jobs, prefer="threads")(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/joblib/parallel.py", line 1085, in __call__
+    if self.dispatch_one_batch(iterator):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/joblib/parallel.py", line 901, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/joblib/parallel.py", line 819, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/joblib/_parallel_backends.py", line 208, in apply_async
+    result = ImmediateResult(func)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/joblib/_parallel_backends.py", line 597, in __init__
+    self.results = batch()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/joblib/parallel.py", line 288, in __call__
+    return [func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/joblib/parallel.py", line 288, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/sklearn/utils/fixes.py", line 117, in __call__
+    return self.function(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/sklearn/neighbors/_base.py", line 623, in _tree_query_parallel_helper
+    return tree.query(*args, **kwargs)
+KeyboardInterrupt
